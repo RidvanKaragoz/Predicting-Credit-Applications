@@ -67,7 +67,7 @@ def objective(trial, df):
     return score
 
 
-def optimize(df, n_trials=100, timeout=300):
+def optimize(df, n_trials=100, timeout=30):
     func = lambda trial: objective(trial, df)
 
     # Create an Optuna study and optimize the objective function
