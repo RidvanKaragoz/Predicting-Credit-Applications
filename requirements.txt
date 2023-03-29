@@ -1,0 +1,17 @@
+# local package
+-e .
+
+pandas
+umap-learn
+xgboost
+scikit-learn
+shap
+optuna
+seaborn
+plotly
+ydata-profiling
+mrmr-selection
+setuptools
+pytest 
+flake8
+black
