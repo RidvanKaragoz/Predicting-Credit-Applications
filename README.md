@@ -27,12 +27,17 @@ make run
 The project uses a Makefile to automate common tasks. The following targets are available:
 
 env: create a virtual environment and install the required packages.
+
 run: run the main application.
+
 preprocess: preprocess the data.
+
 features: engineer features.
+
 train: train a machine learning model.
+
 predict: make predictions.
-freeze: save the list of installed packages to requirements_dev.txt.
+
 clean: remove generated files.
 
 The run command will execute several scripts in the src directory that will preprocess the data, engineer features, train a model, and make predictions. The output will be saved in the appropriate projects folders.
